@@ -2134,10 +2134,10 @@
    },
    {
     "sp": "Red Deer",
-    "grade": "5",
-    "rating": "165",
+    "grade": "7",
+    "rating": "198",
     "solo": false,
-    "shot": true
+    "shot": false
    }
   ]
  },
