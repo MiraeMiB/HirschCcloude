@@ -2443,5 +2443,22 @@
     "shot": false
    }
   ]
+ },
+ {
+  "id": "1795823028119",
+  "x": 0.4782878306400674,
+  "y": 0.3592254319408137,
+  "type": "stado",
+  "title": "Nové stádo",
+  "note": "",
+  "animals": [
+   {
+    "sp": "Roe Deer",
+    "grade": "",
+    "rating": "",
+    "solo": false,
+    "shot": false
+   }
+  ]
  }
 ]
