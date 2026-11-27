@@ -2130,14 +2130,14 @@
     "grade": "7",
     "rating": "211",
     "solo": false,
-    "shot": false
+    "shot": true
    },
    {
     "sp": "Red Deer",
     "grade": "7",
     "rating": "198",
     "solo": false,
-    "shot": false
+    "shot": true
    }
   ]
  },
