@@ -1829,7 +1829,7 @@
     "grade": "7",
     "rating": "209",
     "solo": false,
-    "shot": false
+    "shot": true
    }
   ]
  },
