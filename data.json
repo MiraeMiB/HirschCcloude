@@ -2426,5 +2426,22 @@
     "shot": false
    }
   ]
+ },
+ {
+  "id": "1795822754890",
+  "x": 0.06899346963045636,
+  "y": 0.4159409583427473,
+  "type": "otaznik",
+  "title": "Otáznik",
+  "note": "",
+  "animals": [
+   {
+    "sp": "Roe Deer",
+    "grade": "",
+    "rating": "",
+    "solo": false,
+    "shot": false
+   }
+  ]
  }
 ]
