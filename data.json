@@ -2454,8 +2454,8 @@
   "animals": [
    {
     "sp": "Roe Deer",
-    "grade": "",
-    "rating": "",
+    "grade": "5",
+    "rating": "157",
     "solo": true,
     "shot": false
    }
