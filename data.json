@@ -79,14 +79,14 @@
     "grade": "6",
     "rating": "173",
     "solo": false,
-    "shot": false
+    "shot": true
    },
    {
     "sp": "Red Deer",
     "grade": "5",
     "rating": "155",
     "solo": false,
-    "shot": false
+    "shot": true
    }
   ],
   "type": "diamant"
