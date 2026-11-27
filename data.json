@@ -236,10 +236,10 @@
   "animals": [
    {
     "sp": "Red Deer",
-    "grade": "8",
-    "rating": "236",
+    "grade": "7",
+    "rating": "220",
     "solo": false,
-    "shot": true
+    "shot": false
    },
    {
     "sp": "Red Deer",
