@@ -37,10 +37,10 @@
    },
    {
     "sp": "Red Deer",
-    "grade": "6",
-    "rating": "211",
+    "grade": "7",
+    "rating": "241",
     "solo": false,
-    "shot": true
+    "shot": false
    }
   ],
   "type": "diamant"
