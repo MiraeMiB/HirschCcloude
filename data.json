@@ -243,10 +243,10 @@
    },
    {
     "sp": "Red Deer",
-    "grade": "7",
-    "rating": "235",
+    "grade": "6",
+    "rating": "159",
     "solo": false,
-    "shot": true
+    "shot": false
    },
    {
     "sp": "Red Deer",
