@@ -1915,10 +1915,10 @@
     "shot": false
    },
    {
-    "sp": "Canada Goose",
-    "grade": "",
-    "rating": "",
-    "solo": false
+    "sp": "Red Deer",
+    "grade": "6",
+    "rating": "220",
+    "solo": true
    }
   ]
  },
