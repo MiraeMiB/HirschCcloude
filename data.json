@@ -1,2493 +1,2500 @@
-[
- {
-  "id": "1794865757595",
-  "x": 0.1938771907548453,
-  "y": 0.38796672124714937,
-  "title": "3",
-  "note": "",
-  "animals": [
+{
+ "maps": {
+  "hirschfelden": [
    {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "191",
-    "shot": false
+    "id": "1794865757595",
+    "x": 0.1938771907548453,
+    "y": 0.38796672124714937,
+    "title": "3",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "191",
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "170",
+      "solo": false,
+      "shot": false
+     }
+    ],
+    "type": "diamant"
    },
    {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "170",
-    "solo": false,
-    "shot": false
+    "id": "1794865900222",
+    "x": 0.44038363585850127,
+    "y": 0.11979066364549075,
+    "title": "2",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "9",
+      "rating": "287",
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "241",
+      "solo": false,
+      "shot": false
+     }
+    ],
+    "type": "diamant"
+   },
+   {
+    "id": "1794866128375",
+    "x": 0.37852053844879996,
+    "y": 0.5405538222736442,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "128",
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "3",
+      "rating": "112",
+      "solo": false
+     }
+    ],
+    "type": "stado"
+   },
+   {
+    "id": "1794866403708",
+    "x": 0.30768631395756935,
+    "y": 0.8493933574953767,
+    "title": "4",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "215",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "188",
+      "solo": false,
+      "shot": false
+     }
+    ],
+    "type": "diamant"
+   },
+   {
+    "id": "1794866629061",
+    "x": 0.30689161019932387,
+    "y": 0.854652382277315,
+    "title": "5",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "245",
+      "shot": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "124",
+      "solo": false,
+      "shot": false
+     }
+    ],
+    "type": "diamant"
+   },
+   {
+    "id": "1794867888972",
+    "x": 0.041856415525716284,
+    "y": 0.9252002023540283,
+    "title": "X",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "2",
+      "rating": "90"
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "145"
+     }
+    ]
+   },
+   {
+    "id": "1794867913534",
+    "x": 0.07525980974736801,
+    "y": 0.9011571814909327,
+    "title": "X",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "150"
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "158"
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "169",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1794867942577",
+    "x": 0.045992073857920784,
+    "y": 0.8853313956063635,
+    "title": "Solo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "200",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794868267214",
+    "x": 0.37800709880921834,
+    "y": 0.43153867534684787,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "155",
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "141",
+      "solo": false
+     }
+    ],
+    "type": "stado"
+   },
+   {
+    "id": "1794868350519",
+    "x": 0.4312934657818533,
+    "y": 0.43179229371038264,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "0",
+      "rating": "0",
+      "solo": false
+     }
+    ],
+    "type": "stado"
+   },
+   {
+    "id": "1794868506011",
+    "x": 0.3835743311794936,
+    "y": 0.4688205747864581,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "130",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1794868606184",
+    "x": 0.3764459172450671,
+    "y": 0.49271353811779545,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "8",
+      "rating": "287",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "178",
+      "solo": false,
+      "shot": false
+     }
+    ],
+    "type": "diamant"
+   },
+   {
+    "id": "1794871025769",
+    "x": 0.7297702717742232,
+    "y": 0.7098854649211728,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "159"
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "122"
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "2",
+      "rating": "106"
+     }
+    ]
+   },
+   {
+    "id": "1794871193108",
+    "x": 0.6864962611244245,
+    "y": 0.7157223913811505,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "121"
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "162",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794871419188",
+    "x": 0.6681729449260769,
+    "y": 0.6686920501649478,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "167",
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "136"
+     }
+    ],
+    "type": "stado"
+   },
+   {
+    "id": "1794872023462",
+    "x": 0.12739329791252257,
+    "y": 0.7855436888593046,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "173"
+     }
+    ]
+   },
+   {
+    "id": "1794873176324",
+    "x": 0.05467078253869726,
+    "y": 0.4221452771126827,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "3",
+      "rating": "119",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1794873247453",
+    "x": 0.039427170096276824,
+    "y": 0.4251041580205882,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "114"
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "104"
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "3",
+      "rating": "122"
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "146",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794873525116",
+    "x": 0.05458486845890905,
+    "y": 0.36872690929317314,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "193",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1794874241425",
+    "x": 0.3806155459399566,
+    "y": 0.39649154480932314,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "202",
+      "solo": true
+     }
+    ],
+    "type": "stado"
+   },
+   {
+    "id": "1794875519278",
+    "x": 0.29986200507242683,
+    "y": 0.08253746344077253,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "145"
+     }
+    ]
+   },
+   {
+    "id": "1794875627977",
+    "x": 0.24628843960449992,
+    "y": 0.13678361341904136,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "152"
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "144"
+     }
+    ]
+   },
+   {
+    "id": "1794876074453",
+    "x": 0.4396920593205845,
+    "y": 0.2452412483307039,
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "148",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "133",
+      "solo": false,
+      "shot": false
+     }
+    ],
+    "type": "stado"
+   },
+   {
+    "id": "1794930457934",
+    "x": 0.3353470762566467,
+    "y": 0.9400213312570318,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "207",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794931151880",
+    "x": 0.2724138836553138,
+    "y": 0.7923453411636158,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "181",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794931710257",
+    "x": 0.25245183737853455,
+    "y": 0.7867495946376346,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "0",
+      "rating": "0",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794932062059",
+    "x": 0.2740550497672299,
+    "y": 0.7249091798228194,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "126",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "130",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794932525099",
+    "x": 0.2698274074908072,
+    "y": 0.6600825131561529,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "9 stado",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "135",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794932572478",
+    "x": 0.2970051078392393,
+    "y": 0.6305269576005973,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "155",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794932602026",
+    "x": 0.2865521461667654,
+    "y": 0.6200825131561529,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "191",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794932695480",
+    "x": 0.24164312564798876,
+    "y": 0.6464528835265233,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "172",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794935343286",
+    "x": 0.35166248298441927,
+    "y": 0.6923195501931901,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "139",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "121",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794935653062",
+    "x": 0.2660643412887166,
+    "y": 0.6218306613043011,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "3",
+      "rating": "90",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794935985637",
+    "x": 0.25572752363482576,
+    "y": 0.6328306613043012,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "156",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794936123190",
+    "x": 0.218561437688252,
+    "y": 0.6312751057487456,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "135",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794941929859",
+    "x": 0.18272547045159374,
+    "y": 0.461494294232159,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "175",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "170",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1794942632945",
+    "x": 0.09129689902302231,
+    "y": 0.441494294232159,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "191",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "173",
+      "solo": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "190",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1794942733142",
+    "x": 0.06830038334357981,
+    "y": 0.4360979979358627,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "201",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "201",
+      "solo": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "172",
+      "solo": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "191",
+      "solo": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "155",
+      "solo": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "150",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1794943370397",
+    "x": 0.04363061950308425,
+    "y": 0.34097873867660344,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "175",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794943382573",
+    "x": 0.03433909801644081,
+    "y": 0.3336454053432701,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "140",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "127",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794943556106",
+    "x": 0.050250828562317704,
+    "y": 0.35075651645438116,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "153",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4-Piebald",
+      "rating": "108",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794943965567",
+    "x": 0.5057842083532584,
+    "y": 0.5963230942321588,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "153",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "143",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794944530688",
+    "x": 0.34951779887590656,
+    "y": 0.7321512414321589,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "123",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794944794352",
+    "x": 0.3811507006238465,
+    "y": 0.607507331971356,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "145",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794944894410",
+    "x": 0.41255266995604595,
+    "y": 0.6331360734321589,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "160",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794945021950",
+    "x": 0.4431700915588334,
+    "y": 0.6230080734321591,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "151",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794945185456",
+    "x": 0.4396857710013421,
+    "y": 0.6124747400988259,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "180",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794945319683",
+    "x": 0.4813582448689379,
+    "y": 0.6150080734321591,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "153",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "143",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794945768440",
+    "x": 0.48637566647172537,
+    "y": 0.6719414067654924,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "149",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "135",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794945817844",
+    "x": 0.48024326229054065,
+    "y": 0.6886080734321591,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "193",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794945929433",
+    "x": 0.5147457787442766,
+    "y": 0.6827339993580851,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "149",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "133",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794946286202",
+    "x": 0.18731777762766633,
+    "y": 0.38239920669211,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "153",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794946647348",
+    "x": 0.6980489784750529,
+    "y": 0.541233785797295,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "150",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794946884997",
+    "x": 0.5664502279512901,
+    "y": 0.44662441336422826,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "168",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794947082282",
+    "x": 0.5735981396818358,
+    "y": 0.4385850533642282,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "155",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794947146768",
+    "x": 0.5710816859458699,
+    "y": 0.43691838669756156,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "135",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794949411264",
+    "x": 0.4537912742484638,
+    "y": 0.8110199673932652,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "136",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "122",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1794949914758",
+    "x": 0.571162184914725,
+    "y": 0.8475547580692623,
+    "type": "diamant",
+    "title": "6",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "210",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "180",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "176",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "138",
+      "solo": false,
+      "shot": true
+     }
+    ]
+   },
+   {
+    "id": "1794950731602",
+    "x": 0.6705787393862046,
+    "y": 0.9402630388381121,
+    "type": "stado",
+    "title": "8",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "2",
+      "rating": "100",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "s5",
+      "rating": "176",
+      "solo": true,
+      "shot": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "s5",
+      "rating": "163",
+      "solo": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "154",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "s3",
+      "rating": "114",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1794954809250",
+    "x": 0.5707750381861149,
+    "y": 0.8561658691803734,
+    "type": "stado",
+    "title": "7",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "125",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1794980095755",
+    "x": 0.19581847948653777,
+    "y": 0.46519583258053876,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "137",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795017806823",
+    "x": 0.21175741840039145,
+    "y": 0.4847875794838745,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "0",
+      "rating": "0",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795018111157",
+    "x": 0.8230557973915229,
+    "y": 0.8659838917576039,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "155",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795018575302",
+    "x": 0.7921136928619062,
+    "y": 0.758814611757604,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "3",
+      "rating": "111",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795019503742",
+    "x": 0.8282712742478086,
+    "y": 0.6706210979616057,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "197",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795019534665",
+    "x": 0.8443588561525928,
+    "y": 0.6698057097043567,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "0",
+      "rating": "0",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795020543474",
+    "x": 0.6270717099439147,
+    "y": 0.2761751323808798,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "153",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "114",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795020623098",
+    "x": 0.6891065849269823,
+    "y": 0.2871314456855816,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "140",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "193",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795020770434",
+    "x": 0.6630201246776923,
+    "y": 0.30965275636746853,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "128",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795021110937",
+    "x": 0.7345811528276753,
+    "y": 0.36042715274712817,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "97",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795021119168",
+    "x": 0.7354648405054968,
+    "y": 0.34668949138899513,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "160",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795021485437",
+    "x": 0.7654979481114572,
+    "y": 0.3874386826226709,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "155",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795022004422",
+    "x": 0.6694853518256676,
+    "y": 0.27665246055186693,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "206",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795022088445",
+    "x": 0.7087342104831311,
+    "y": 0.2825540450646542,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "192",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795022450675",
+    "x": 0.7387773154775491,
+    "y": 0.26121494250710825,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "191",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795022673539",
+    "x": 0.6801268927054714,
+    "y": 0.26503707496296347,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "178",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795022788619",
+    "x": 0.7267915342570973,
+    "y": 0.2544879893848031,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "149",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795023166279",
+    "x": 0.7578976683684728,
+    "y": 0.24881633624948613,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "177",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795023444794",
+    "x": 0.7685542692201957,
+    "y": 0.22036211402726394,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "184",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795023581523",
+    "x": 0.7970532239240283,
+    "y": 0.18292211402726394,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "147",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "142",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795023742458",
+    "x": 0.8141124573735057,
+    "y": 0.15085811402726396,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "177",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "158",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795023990707",
+    "x": 0.8266668245116888,
+    "y": 0.11186638578613885,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "141",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "205",
+      "solo": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "188",
+      "solo": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "140",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795034880600",
+    "x": 0.20736908422340122,
+    "y": 0.4969735729251074,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "172",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795035393532",
+    "x": 0.1858820245555693,
+    "y": 0.49677337784335396,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "170",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795035484751",
+    "x": 0.16607407265853774,
+    "y": 0.5183775146778965,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "219",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "220",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795035594786",
+    "x": 0.1765576359660263,
+    "y": 0.5056574578648104,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "216",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795036169177",
+    "x": 0.15803698603220112,
+    "y": 0.5785532230629085,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "163",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795036301244",
+    "x": 0.1676537107708771,
+    "y": 0.5546865563962418,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "180",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795036461122",
+    "x": 0.12848994770467498,
+    "y": 0.5808198897295751,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "171",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "112",
+      "solo": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "187",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795037527720",
+    "x": 0.13202563595554612,
+    "y": 0.20988093463624188,
+    "type": "diamant",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "209",
+      "solo": false,
+      "shot": true
+     }
+    ]
+   },
+   {
+    "id": "1795038229662",
+    "x": 0.21958412247819417,
+    "y": 0.25525609495624185,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "138",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795038645136",
+    "x": 0.3483209102802847,
+    "y": 0.29391555550735293,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "162",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795039432386",
+    "x": 0.4059944991304589,
+    "y": 0.36712515550735286,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "8",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "0",
+      "rating": "0",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795039639498",
+    "x": 0.2788343575276714,
+    "y": 0.10234578910735305,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "142",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "140",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795039869020",
+    "x": 0.2513589568308073,
+    "y": 0.10512978910735306,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "185",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795039887472",
+    "x": 0.3077269010816784,
+    "y": 0.11761938910735303,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "149",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "220",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795039890867",
+    "x": 0.28737846902592923,
+    "y": 0.15521938910735303,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "194",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "222",
+      "solo": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "186",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795040448046",
+    "x": 0.46470864324195704,
+    "y": 0.07100712244068641,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "199",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795041366996",
+    "x": 0.5575042487239548,
+    "y": 0.08063806146290864,
+    "type": "stan",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "161",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "210",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795041642975",
+    "x": 0.568963791890815,
+    "y": 0.08028620961105679,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "0",
+      "rating": "0",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795041884345",
+    "x": 0.5731256192233741,
+    "y": 0.11834176516661235,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "188",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795041958278",
+    "x": 0.5738031259984419,
+    "y": 0.1303788022036494,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "139",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "95",
+      "solo": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "154",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795042307094",
+    "x": 0.5858988286697542,
+    "y": 0.1751337651666124,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "165",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795042957416",
+    "x": 0.6242263548021584,
+    "y": 0.231000431833279,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "151",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "155",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795043318787",
+    "x": 0.6074012676941446,
+    "y": 0.19920843183327905,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "159",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "143",
+      "solo": true
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "134",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795043620260",
+    "x": 0.5901272886000679,
+    "y": 0.2615329118332791,
+    "type": "diamant",
+    "title": "1",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "219",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "190",
+      "solo": false,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795043899726",
+    "x": 0.5300576021889181,
+    "y": 0.24406624516661243,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "202",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795044104119",
+    "x": 0.5016255464397892,
+    "y": 0.21406624516661243,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "191",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "178",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795044310522",
+    "x": 0.4653730028857823,
+    "y": 0.20269344516661247,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "141",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "144",
+      "solo": false
+     }
+    ]
+   },
+   {
+    "id": "1795044510972",
+    "x": 0.43989565096940597,
+    "y": 0.18232011183327912,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "200",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795044680433",
+    "x": 0.4494450307603468,
+    "y": 0.14257581316661244,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "167",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795045139227",
+    "x": 0.31150387706309546,
+    "y": 0.1628002576110569,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "187",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795045354075",
+    "x": 0.34395064438791156,
+    "y": 0.20731136872216796,
+    "type": "diamant",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "226",
+      "solo": false,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "194",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "134",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795045546305",
+    "x": 0.40039663741927045,
+    "y": 0.21344470205550126,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "221",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795046712531",
+    "x": 0.6552938547126501,
+    "y": 0.7685737112075011,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "4",
+      "rating": "140",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795383790750",
+    "x": 0.33238317973232856,
+    "y": 0.7877207943698421,
+    "type": "stan",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "211",
+      "solo": false,
+      "shot": true
+     }
+    ]
+   },
+   {
+    "id": "1795461128714",
+    "x": 0.7158380273085493,
+    "y": 0.7236617299746327,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "168",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795462429515",
+    "x": 0.7543406234500464,
+    "y": 0.2341015828874796,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "167",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795467580623",
+    "x": 0.5140033727135344,
+    "y": 0.262076655349578,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "205",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "180",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795468334947",
+    "x": 0.022895965562655406,
+    "y": 0.42287044680344477,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "179",
+      "solo": true,
+      "shot": false
+     },
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "155",
+      "solo": true
+     }
+    ]
+   },
+   {
+    "id": "1795822727820",
+    "x": 0.009705819611099023,
+    "y": 0.4188187361205251,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "7",
+      "rating": "192",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795822754890",
+    "x": 0.06899346963045636,
+    "y": 0.4159409583427473,
+    "type": "stado",
+    "title": "Otáznik",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "211",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795823028119",
+    "x": 0.4782878306400674,
+    "y": 0.3592254319408137,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "5",
+      "rating": "157",
+      "solo": true,
+      "shot": false
+     }
+    ]
+   },
+   {
+    "id": "1795825069228",
+    "x": 0.3266135056445543,
+    "y": 0.18690701964014092,
+    "type": "stado",
+    "title": "Nové stádo",
+    "note": "",
+    "animals": [
+     {
+      "sp": "Red Deer",
+      "grade": "6",
+      "rating": "182",
+      "solo": true,
+      "shot": false
+     }
+    ]
    }
   ],
-  "type": "diamant"
- },
- {
-  "id": "1794865900222",
-  "x": 0.44038363585850127,
-  "y": 0.11979066364549075,
-  "title": "2",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "9",
-    "rating": "287",
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "241",
-    "solo": false,
-    "shot": false
-   }
-  ],
-  "type": "diamant"
- },
- {
-  "id": "1794866128375",
-  "x": 0.37852053844879996,
-  "y": 0.5405538222736442,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "128",
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "3",
-    "rating": "112",
-    "solo": false
-   }
-  ],
-  "type": "stado"
- },
- {
-  "id": "1794866403708",
-  "x": 0.30768631395756935,
-  "y": 0.8493933574953767,
-  "title": "4",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "215",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "188",
-    "solo": false,
-    "shot": false
-   }
-  ],
-  "type": "diamant"
- },
- {
-  "id": "1794866629061",
-  "x": 0.30689161019932387,
-  "y": 0.854652382277315,
-  "title": "5",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "245",
-    "shot": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "124",
-    "solo": false,
-    "shot": false
-   }
-  ],
-  "type": "diamant"
- },
- {
-  "id": "1794867888972",
-  "x": 0.041856415525716284,
-  "y": 0.9252002023540283,
-  "title": "X",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "2",
-    "rating": "90"
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "145"
-   }
-  ]
- },
- {
-  "id": "1794867913534",
-  "x": 0.07525980974736801,
-  "y": 0.9011571814909327,
-  "title": "X",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "150"
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "158"
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "169",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1794867942577",
-  "x": 0.045992073857920784,
-  "y": 0.8853313956063635,
-  "title": "Solo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "200",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794868267214",
-  "x": 0.37800709880921834,
-  "y": 0.43153867534684787,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "155",
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "141",
-    "solo": false
-   }
-  ],
-  "type": "stado"
- },
- {
-  "id": "1794868350519",
-  "x": 0.4312934657818533,
-  "y": 0.43179229371038264,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "0",
-    "rating": "0",
-    "solo": false
-   }
-  ],
-  "type": "stado"
- },
- {
-  "id": "1794868506011",
-  "x": 0.3835743311794936,
-  "y": 0.4688205747864581,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "130",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1794868606184",
-  "x": 0.3764459172450671,
-  "y": 0.49271353811779545,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "8",
-    "rating": "287",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "178",
-    "solo": false,
-    "shot": false
-   }
-  ],
-  "type": "diamant"
- },
- {
-  "id": "1794871025769",
-  "x": 0.7297702717742232,
-  "y": 0.7098854649211728,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "159"
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "122"
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "2",
-    "rating": "106"
-   }
-  ]
- },
- {
-  "id": "1794871193108",
-  "x": 0.6864962611244245,
-  "y": 0.7157223913811505,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "121"
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "162",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794871419188",
-  "x": 0.6681729449260769,
-  "y": 0.6686920501649478,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "167",
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "136"
-   }
-  ],
-  "type": "stado"
- },
- {
-  "id": "1794872023462",
-  "x": 0.12739329791252257,
-  "y": 0.7855436888593046,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "173"
-   }
-  ]
- },
- {
-  "id": "1794873176324",
-  "x": 0.05467078253869726,
-  "y": 0.4221452771126827,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "3",
-    "rating": "119",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1794873247453",
-  "x": 0.039427170096276824,
-  "y": 0.4251041580205882,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "114"
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "104"
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "3",
-    "rating": "122"
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "146",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794873525116",
-  "x": 0.05458486845890905,
-  "y": 0.36872690929317314,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "193",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1794874241425",
-  "x": 0.3806155459399566,
-  "y": 0.39649154480932314,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "202",
-    "solo": true
-   }
-  ],
-  "type": "stado"
- },
- {
-  "id": "1794875519278",
-  "x": 0.29986200507242683,
-  "y": 0.08253746344077253,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "145"
-   }
-  ]
- },
- {
-  "id": "1794875627977",
-  "x": 0.24628843960449992,
-  "y": 0.13678361341904136,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "152"
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "144"
-   }
-  ]
- },
- {
-  "id": "1794876074453",
-  "x": 0.4396920593205845,
-  "y": 0.2452412483307039,
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "148",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "133",
-    "solo": false,
-    "shot": false
-   }
-  ],
-  "type": "stado"
- },
- {
-  "id": "1794930457934",
-  "x": 0.3353470762566467,
-  "y": 0.9400213312570318,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "207",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794931151880",
-  "x": 0.2724138836553138,
-  "y": 0.7923453411636158,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "181",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794931710257",
-  "x": 0.25245183737853455,
-  "y": 0.7867495946376346,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "0",
-    "rating": "0",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794932062059",
-  "x": 0.2740550497672299,
-  "y": 0.7249091798228194,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "126",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "130",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794932525099",
-  "x": 0.2698274074908072,
-  "y": 0.6600825131561529,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "9 stado",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "135",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794932572478",
-  "x": 0.2970051078392393,
-  "y": 0.6305269576005973,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "155",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794932602026",
-  "x": 0.2865521461667654,
-  "y": 0.6200825131561529,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "191",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794932695480",
-  "x": 0.24164312564798876,
-  "y": 0.6464528835265233,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "172",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794935343286",
-  "x": 0.35166248298441927,
-  "y": 0.6923195501931901,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "139",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "121",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794935653062",
-  "x": 0.2660643412887166,
-  "y": 0.6218306613043011,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "3",
-    "rating": "90",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794935985637",
-  "x": 0.25572752363482576,
-  "y": 0.6328306613043012,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "156",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794936123190",
-  "x": 0.218561437688252,
-  "y": 0.6312751057487456,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "135",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794941929859",
-  "x": 0.18272547045159374,
-  "y": 0.461494294232159,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "175",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "170",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1794942632945",
-  "x": 0.09129689902302231,
-  "y": 0.441494294232159,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "191",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "173",
-    "solo": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "190",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1794942733142",
-  "x": 0.06830038334357981,
-  "y": 0.4360979979358627,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "201",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "201",
-    "solo": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "172",
-    "solo": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "191",
-    "solo": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "155",
-    "solo": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "150",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1794943370397",
-  "x": 0.04363061950308425,
-  "y": 0.34097873867660344,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "175",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794943382573",
-  "x": 0.03433909801644081,
-  "y": 0.3336454053432701,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "140",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "127",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794943556106",
-  "x": 0.050250828562317704,
-  "y": 0.35075651645438116,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "153",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4-Piebald",
-    "rating": "108",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794943965567",
-  "x": 0.5057842083532584,
-  "y": 0.5963230942321588,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "153",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "143",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794944530688",
-  "x": 0.34951779887590656,
-  "y": 0.7321512414321589,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "123",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794944794352",
-  "x": 0.3811507006238465,
-  "y": 0.607507331971356,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "145",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794944894410",
-  "x": 0.41255266995604595,
-  "y": 0.6331360734321589,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "160",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794945021950",
-  "x": 0.4431700915588334,
-  "y": 0.6230080734321591,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "151",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794945185456",
-  "x": 0.4396857710013421,
-  "y": 0.6124747400988259,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "180",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794945319683",
-  "x": 0.4813582448689379,
-  "y": 0.6150080734321591,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "153",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "143",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794945768440",
-  "x": 0.48637566647172537,
-  "y": 0.6719414067654924,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "149",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "135",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794945817844",
-  "x": 0.48024326229054065,
-  "y": 0.6886080734321591,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "193",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794945929433",
-  "x": 0.5147457787442766,
-  "y": 0.6827339993580851,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "149",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "133",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794946286202",
-  "x": 0.18731777762766633,
-  "y": 0.38239920669211,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "153",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794946647348",
-  "x": 0.6980489784750529,
-  "y": 0.541233785797295,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "150",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794946884997",
-  "x": 0.5664502279512901,
-  "y": 0.44662441336422826,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "168",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794947082282",
-  "x": 0.5735981396818358,
-  "y": 0.4385850533642282,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "155",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794947146768",
-  "x": 0.5710816859458699,
-  "y": 0.43691838669756156,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "135",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794949411264",
-  "x": 0.4537912742484638,
-  "y": 0.8110199673932652,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "136",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "122",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1794949914758",
-  "x": 0.571162184914725,
-  "y": 0.8475547580692623,
-  "type": "diamant",
-  "title": "6",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "210",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "180",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "176",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "138",
-    "solo": false,
-    "shot": true
-   }
-  ]
- },
- {
-  "id": "1794950731602",
-  "x": 0.6705787393862046,
-  "y": 0.9402630388381121,
-  "type": "stado",
-  "title": "8",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "2",
-    "rating": "100",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "s5",
-    "rating": "176",
-    "solo": true,
-    "shot": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "s5",
-    "rating": "163",
-    "solo": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "154",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "s3",
-    "rating": "114",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1794954809250",
-  "x": 0.5707750381861149,
-  "y": 0.8561658691803734,
-  "type": "stado",
-  "title": "7",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "125",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1794980095755",
-  "x": 0.19581847948653777,
-  "y": 0.46519583258053876,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "137",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795017806823",
-  "x": 0.21175741840039145,
-  "y": 0.4847875794838745,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "0",
-    "rating": "0",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795018111157",
-  "x": 0.8230557973915229,
-  "y": 0.8659838917576039,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "155",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795018575302",
-  "x": 0.7921136928619062,
-  "y": 0.758814611757604,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "3",
-    "rating": "111",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795019503742",
-  "x": 0.8282712742478086,
-  "y": 0.6706210979616057,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "197",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795019534665",
-  "x": 0.8443588561525928,
-  "y": 0.6698057097043567,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "0",
-    "rating": "0",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795020543474",
-  "x": 0.6270717099439147,
-  "y": 0.2761751323808798,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "153",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "114",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795020623098",
-  "x": 0.6891065849269823,
-  "y": 0.2871314456855816,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "140",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "193",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795020770434",
-  "x": 0.6630201246776923,
-  "y": 0.30965275636746853,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "128",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795021110937",
-  "x": 0.7345811528276753,
-  "y": 0.36042715274712817,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "97",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795021119168",
-  "x": 0.7354648405054968,
-  "y": 0.34668949138899513,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "160",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795021485437",
-  "x": 0.7654979481114572,
-  "y": 0.3874386826226709,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "155",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795022004422",
-  "x": 0.6694853518256676,
-  "y": 0.27665246055186693,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "206",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795022088445",
-  "x": 0.7087342104831311,
-  "y": 0.2825540450646542,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "192",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795022450675",
-  "x": 0.7387773154775491,
-  "y": 0.26121494250710825,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "191",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795022673539",
-  "x": 0.6801268927054714,
-  "y": 0.26503707496296347,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "178",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795022788619",
-  "x": 0.7267915342570973,
-  "y": 0.2544879893848031,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "149",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795023166279",
-  "x": 0.7578976683684728,
-  "y": 0.24881633624948613,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "177",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795023444794",
-  "x": 0.7685542692201957,
-  "y": 0.22036211402726394,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "184",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795023581523",
-  "x": 0.7970532239240283,
-  "y": 0.18292211402726394,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "147",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "142",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795023742458",
-  "x": 0.8141124573735057,
-  "y": 0.15085811402726396,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "177",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "158",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795023990707",
-  "x": 0.8266668245116888,
-  "y": 0.11186638578613885,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "141",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "205",
-    "solo": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "188",
-    "solo": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "140",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795034880600",
-  "x": 0.20736908422340122,
-  "y": 0.4969735729251074,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "172",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795035393532",
-  "x": 0.1858820245555693,
-  "y": 0.49677337784335396,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "170",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795035484751",
-  "x": 0.16607407265853774,
-  "y": 0.5183775146778965,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "219",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "220",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795035594786",
-  "x": 0.1765576359660263,
-  "y": 0.5056574578648104,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "216",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795036169177",
-  "x": 0.15803698603220112,
-  "y": 0.5785532230629085,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "163",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795036301244",
-  "x": 0.1676537107708771,
-  "y": 0.5546865563962418,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "180",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795036461122",
-  "x": 0.12848994770467498,
-  "y": 0.5808198897295751,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "171",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "112",
-    "solo": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "187",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795037527720",
-  "x": 0.13202563595554612,
-  "y": 0.20988093463624188,
-  "type": "diamant",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "209",
-    "solo": false,
-    "shot": true
-   }
-  ]
- },
- {
-  "id": "1795038229662",
-  "x": 0.21958412247819417,
-  "y": 0.25525609495624185,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "138",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795038645136",
-  "x": 0.3483209102802847,
-  "y": 0.29391555550735293,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "162",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795039432386",
-  "x": 0.4059944991304589,
-  "y": 0.36712515550735286,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "8",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "0",
-    "rating": "0",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795039639498",
-  "x": 0.2788343575276714,
-  "y": 0.10234578910735305,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "142",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "140",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795039869020",
-  "x": 0.2513589568308073,
-  "y": 0.10512978910735306,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "185",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795039887472",
-  "x": 0.3077269010816784,
-  "y": 0.11761938910735303,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "149",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "220",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795039890867",
-  "x": 0.28737846902592923,
-  "y": 0.15521938910735303,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "194",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "222",
-    "solo": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "186",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795040448046",
-  "x": 0.46470864324195704,
-  "y": 0.07100712244068641,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "199",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795041366996",
-  "x": 0.5575042487239548,
-  "y": 0.08063806146290864,
-  "type": "stan",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "161",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "210",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795041642975",
-  "x": 0.568963791890815,
-  "y": 0.08028620961105679,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "0",
-    "rating": "0",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795041884345",
-  "x": 0.5731256192233741,
-  "y": 0.11834176516661235,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "188",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795041958278",
-  "x": 0.5738031259984419,
-  "y": 0.1303788022036494,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "139",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "95",
-    "solo": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "154",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795042307094",
-  "x": 0.5858988286697542,
-  "y": 0.1751337651666124,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "165",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795042957416",
-  "x": 0.6242263548021584,
-  "y": 0.231000431833279,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "151",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "155",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795043318787",
-  "x": 0.6074012676941446,
-  "y": 0.19920843183327905,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "159",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "143",
-    "solo": true
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "134",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795043620260",
-  "x": 0.5901272886000679,
-  "y": 0.2615329118332791,
-  "type": "diamant",
-  "title": "1",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "219",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "190",
-    "solo": false,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795043899726",
-  "x": 0.5300576021889181,
-  "y": 0.24406624516661243,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "202",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795044104119",
-  "x": 0.5016255464397892,
-  "y": 0.21406624516661243,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "191",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "178",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795044310522",
-  "x": 0.4653730028857823,
-  "y": 0.20269344516661247,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "141",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "144",
-    "solo": false
-   }
-  ]
- },
- {
-  "id": "1795044510972",
-  "x": 0.43989565096940597,
-  "y": 0.18232011183327912,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "200",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795044680433",
-  "x": 0.4494450307603468,
-  "y": 0.14257581316661244,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "167",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795045139227",
-  "x": 0.31150387706309546,
-  "y": 0.1628002576110569,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "187",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795045354075",
-  "x": 0.34395064438791156,
-  "y": 0.20731136872216796,
-  "type": "diamant",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "226",
-    "solo": false,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "194",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "134",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795045546305",
-  "x": 0.40039663741927045,
-  "y": 0.21344470205550126,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "221",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795046712531",
-  "x": 0.6552938547126501,
-  "y": 0.7685737112075011,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "4",
-    "rating": "140",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795383790750",
-  "x": 0.33238317973232856,
-  "y": 0.7877207943698421,
-  "type": "stan",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "211",
-    "solo": false,
-    "shot": true
-   }
-  ]
- },
- {
-  "id": "1795461128714",
-  "x": 0.7158380273085493,
-  "y": 0.7236617299746327,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "168",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795462429515",
-  "x": 0.7543406234500464,
-  "y": 0.2341015828874796,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "167",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795467580623",
-  "x": 0.5140033727135344,
-  "y": 0.262076655349578,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "205",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "180",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795468334947",
-  "x": 0.022895965562655406,
-  "y": 0.42287044680344477,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "179",
-    "solo": true,
-    "shot": false
-   },
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "155",
-    "solo": true
-   }
-  ]
- },
- {
-  "id": "1795822727820",
-  "x": 0.009705819611099023,
-  "y": 0.4188187361205251,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "7",
-    "rating": "192",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795822754890",
-  "x": 0.06899346963045636,
-  "y": 0.4159409583427473,
-  "type": "stado",
-  "title": "Otáznik",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "211",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795823028119",
-  "x": 0.4782878306400674,
-  "y": 0.3592254319408137,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "5",
-    "rating": "157",
-    "solo": true,
-    "shot": false
-   }
-  ]
- },
- {
-  "id": "1795825069228",
-  "x": 0.3266135056445543,
-  "y": 0.18690701964014092,
-  "type": "stado",
-  "title": "Nové stádo",
-  "note": "",
-  "animals": [
-   {
-    "sp": "Red Deer",
-    "grade": "6",
-    "rating": "182",
-    "solo": true,
-    "shot": false
-   }
-  ]
+  "layton": [],
+  "teawaroa": [],
+  "emerald": []
  }
-]
+}
