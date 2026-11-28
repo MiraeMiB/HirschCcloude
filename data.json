@@ -2407,6 +2407,12 @@
     "rating": "179",
     "solo": true,
     "shot": false
+   },
+   {
+    "sp": "Canada Goose",
+    "grade": "",
+    "rating": "",
+    "solo": false
    }
   ]
  },
