@@ -106,13 +106,22 @@ button.tab{border-radius:10px 10px 0 0;border-bottom:none}
 #sp summary::after{content:"▾";float:right;margin-left:10px}#sp details[open] summary::after{content:"▴"}
 #sptb{width:100%;border-collapse:collapse;margin-top:10px;font-size:13px}
 #sptb th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mu);text-align:right;padding:2px 4px 6px;font-weight:600;white-space:nowrap}
-#sptb th:first-child,#sptb td:first-child{text-align:left}
+#sptb th:nth-child(-n+2),#sptb td:first-child{text-align:left}
 #sptb td{padding:6px 4px;border-top:1px solid var(--bd);text-align:right;font-variant-numeric:tabular-nums;vertical-align:middle}
-#sptb td:first-child{display:flex;align-items:center;gap:6px}
+#sptb td:nth-child(2){display:flex;align-items:center;gap:6px;text-align:left}
 #sptb .go{width:20px;height:auto;flex:none}
 #sptb .nogo{width:20px;flex:none}
 #sptb .gm{width:11px;height:auto;vertical-align:-1px;margin-right:3px}
 @media (max-width:700px){#sp{order:1;width:100%;max-height:30%;border-left:0;border-top:1px solid var(--bd)}#vp{order:2}}
+.lkrow{display:flex;justify-content:space-between;margin-top:8px}
+.lk{font-size:12px;color:#ff9a52;cursor:pointer;user-select:none}.lk:hover{text-decoration:underline}
+.ft{font-size:12px;color:var(--mu);margin-top:10px}
+#sptb tr[data-n]{cursor:pointer}#sptb tr[data-n]:hover td{background:rgba(255,255,255,.05)}
+#sptb tr.s td{background:rgba(255,255,255,.08)}
+.sq{width:16px;height:16px;border-radius:4px;border:2px solid var(--c);display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;flex:none;vertical-align:middle}
+.sq.c{background:var(--c)}
+.sq.c::after{content:"";width:4px;height:8px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.sq.dk.c::after{border-color:#222}
 </style></head><body>
 <nav id="tabs"></nav>
 <div id="app">
@@ -120,14 +129,14 @@ button.tab{border-radius:10px 10px 0 0;border-bottom:none}
  <div class="row" style="justify-content:space-between"><h1 id="mt">Hirschfelden – stáda</h1><span class="row"><button id="gb">GitHub sync</button><button id="bk">Záloha</button></span></div>
  <small id="gst" style="color:var(--mu)">Sync nenastavený</small>
  <div class="row"><button id="addb" class="pri">+ Stádo</button></div>
- <details id="flt"><summary id="fsum">Filtre</summary><div><h2>Typ značky</h2><div id="tchips" class="row"></div><h2>Filter druhov</h2><div id="chips" class="row"></div><h2>Filter gradu</h2><div id="gchips" class="row"></div><label class="row" style="margin-top:8px"><input type="checkbox" id="hs"> Nezobrazovať solo</label><label class="row" style="margin-top:4px"><input type="checkbox" id="hn"> Nezobrazovať normal</label><button id="fr" style="margin-top:8px">Zrušiť všetky filtre</button></div></details>
+ <div id="flt"><h2 id="fsum">Filtre</h2><div><h2>Typ značky</h2><div id="tchips" class="row"></div><h2>Grade</h2><div id="gchips" class="row"></div><label class="row" style="margin-top:8px"><input type="checkbox" id="hs"> Nezobrazovať solo</label><label class="row" style="margin-top:4px"><input type="checkbox" id="hn"> Nezobrazovať normal</label><button id="fr" style="margin-top:8px">Zrušiť všetky filtre</button></div></div>
  <div id="ed"></div>
  <details id="hl"><summary id="cnt">Stáda</summary><div id="list" style="padding-top:8px"></div></details>
 </aside>
 <div id="vp"><div id="world"><img id="map" alt="Mapa"><div id="pins"></div></div>
 <div id="nomap"></div><div id="zm"><button id="zi">+</button><button id="zo">−</button><button id="zf">⤢</button></div>
 <div id="hint">Klikni na mapu pre umiestnenie</div></div>
-<section id="sp"><details id="spd" open><summary id="spt">Zvieratá</summary><table id="sptb"></table></details></section>
+<section id="sp"><details id="spd" open><summary id="spt">Zvieratá</summary><div class="lkrow"><span class="lk" id="sall">Označiť všetky</span><span class="lk" id="snone">Zrušiť výber</span></div><table id="sptb"></table><div id="spf" class="ft"></div></details></section>
 </div>
 <div id="mv"><span>Potvrdiť presun značky?</span><button id="mok" class="pri">Potvrdiť</button><button id="mno">Zrušiť</button></div><dialog id="gd"><h2>GitHub synchronizácia</h2>
 <div style="display:grid;gap:6px"><input id="go" placeholder="Používateľ (owner)"><input id="gr" placeholder="Repozitár"><input id="gbr" placeholder="Vetva (predvolene main)"><input id="gp" placeholder="Súbor s dátami (predvolene data.json)"><input id="gt" type="password" placeholder="Token github_pat_… (bez neho len čítanie)"></div>
@@ -256,14 +265,18 @@ function renderT(){
  $("tchips").innerHTML=T.map(([k,n,c])=>`<button class="chip ${tAct.has(k)?"on":""}" data-k="${k}"><i style="background:${c}"></i>${n}</button>`).join("")+(tAct.size?`<button class="chip" data-k="">Zobraziť všetko</button>`:"");
  $("tchips").querySelectorAll("button").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(!k)tAct.clear();else tAct.has(k)?tAct.delete(k):tAct.add(k);renderAll()})}
 function renderF(){const n=tAct.size+act.size+gAct.size+(hideSolo?1:0)+(hideNorm?1:0);
- $("fsum").textContent="Filtre"+(n?" ("+n+" aktívne)":"");$("fsum").style.borderColor=n?"var(--ac)":""}
+ $("fsum").textContent="Filtre"+(n?" ("+n+" aktívne)":"");$("fsum").style.color=n?"var(--ac)":""}
 function renderG(){const gs=[...new Set([...herds.flatMap(h=>h.animals.map(a=>String(a.grade||"").trim())),...gAct])].filter(Boolean).sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
  $("gchips").innerHTML=gs.length?gs.map(g=>`<button class="chip ${gAct.has(g)?"on":""}" data-g="${esc(g)}">${esc(g)}</button>`).join("")+(gAct.size?`<button class="chip" data-g="">Zrušiť filter</button>`:""):`<small style="color:var(--mu)">Zatiaľ žiadny grade</small>`;
  $("gchips").querySelectorAll("button").forEach(b=>b.onclick=()=>{const g=b.dataset.g;if(!g)gAct.clear();else gAct.has(g)?gAct.delete(g):gAct.add(g);renderAll()})}
 function renderSp(){
  const m=curMap();$("spt").textContent="Zvieratá – "+m.n;
- $("sptb").innerHTML=`<tr><th>Druh</th><th>Max tier</th><th><img class="gm" src="${GEM}" alt="">Diamant</th></tr>`+(ANI[cur]||[]).map(r=>`<tr><td>${r[2]?`<img class="go" src="${GO}" alt="Great One" title="Great One">`:'<span class="nogo"></span>'}<span>${esc(r[0])}</span></td><td>${r[1]}</td><td>${r[3]}</td></tr>`).join("")}
-function renderAll(){renderSp();renderF();renderChips();renderT();renderG();renderPins();renderList();renderEd()}
+ const lum=c=>{const q=/^#([0-9a-f]{6})$/i.exec(c);if(!q)return 1;const v=parseInt(q[1],16);return(.299*(v>>16)+.587*((v>>8)&255)+.114*(v&255))/255};
+ $("sptb").innerHTML=`<tr><th></th><th>Druh</th><th>Max tier</th><th><img class="gm" src="${GEM}" alt="">Diamant</th></tr>`+(ANI[cur]||[]).map(r=>{const c=COLOR(r[0]),on=act.has(r[0]);
+  return `<tr data-n="${esc(r[0])}" class="${on?"s":""}"><td><span class="sq ${on?"c":""} ${lum(c)>.62?"dk":""}" style="--c:${c}"></span></td><td>${r[2]?`<img class="go" src="${GO}" alt="Great One" title="Great One">`:'<span class="nogo"></span>'}<span>${esc(r[0])}</span></td><td>${r[1]}</td><td>${r[3]}</td></tr>`}).join("");
+ $("sptb").querySelectorAll("tr[data-n]").forEach(r=>r.onclick=()=>{const n=r.dataset.n;act.has(n)?act.delete(n):act.add(n);renderAll()});
+ $("spf").textContent=act.size?"Označené: "+act.size+" ("+[...act].join(", ")+")":"Nič nie je označené – zobrazujú sa všetky druhy"}
+function renderAll(){renderSp();renderF();renderT();renderG();renderPins();renderList();renderEd()}
 $("bk").onclick=()=>{$("js").value=JSON.stringify(herds,null,1);$("dlg").showModal()};
 $("cl").onclick=()=>$("dlg").close();
 $("cp").onclick=()=>{$("js").select();try{navigator.clipboard.writeText($("js").value)}catch(e){document.execCommand("copy")}};
@@ -280,6 +293,8 @@ function setMap(k){
  $("nomap").style.display="none";img.src=curMap().s}
 renderTabs();$("mt").textContent=curMap().n+" – stáda";
 img.onload=init;img.onerror=noMap;
+$("sall").onclick=()=>{(ANI[cur]||[]).forEach(r=>act.add(r[0]));renderAll()};
+$("snone").onclick=()=>{act.clear();renderAll()};
 $("spd").ontoggle=()=>$("sp").classList.toggle("shut",!$("spd").open);
 if(matchMedia("(max-width:700px)").matches){$("spd").open=false;$("sp").classList.add("shut")}
 img.src=curMap().s;
