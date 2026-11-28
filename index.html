@@ -122,14 +122,21 @@ button.tab{border-radius:10px 10px 0 0;border-bottom:none}
 .sq.c{background:var(--c)}
 .sq.c::after{content:"";width:4px;height:8px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
 .sq.dk.c::after{border-color:#222}
+#tl{display:flex;align-items:flex-end;gap:4px}
+#tools{margin-left:auto;display:flex;gap:6px;align-self:center;padding:0 0 4px 14px;flex:none}
+#tools button{padding:5px 12px;font-size:12px}
+body.nonames .lbl{display:none}
+#tchips{flex-wrap:nowrap}
+#tchips .chip{white-space:nowrap}
+@media (min-width:701px){aside{width:330px;min-width:330px;max-width:none;flex:none}}
 </style></head><body>
-<nav id="tabs"></nav>
+<nav id="tabs"><div id="tl"></div><div id="tools"><button id="gb">GitHub sync</button><button id="bk">Záloha</button></div></nav>
 <div id="app">
 <aside>
- <div class="row" style="justify-content:space-between"><h1 id="mt">Hirschfelden – stáda</h1><span class="row"><button id="gb">GitHub sync</button><button id="bk">Záloha</button></span></div>
+ <div class="row" style="justify-content:space-between"><h1 id="mt">Hirschfelden – stáda</h1></div>
  <small id="gst" style="color:var(--mu)">Sync nenastavený</small>
  <div class="row"><button id="addb" class="pri">+ Stádo</button></div>
- <div id="flt"><h2 id="fsum">Filtre</h2><div><h2>Typ značky</h2><div id="tchips" class="row"></div><h2>Grade</h2><div id="gchips" class="row"></div><label class="row" style="margin-top:8px"><input type="checkbox" id="hs"> Nezobrazovať solo</label><label class="row" style="margin-top:4px"><input type="checkbox" id="hn"> Nezobrazovať normal</label><button id="fr" style="margin-top:8px">Zrušiť všetky filtre</button></div></div>
+ <div id="flt"><h2 id="fsum">Filtre</h2><div><h2>Typ značky</h2><div id="tchips" class="row"></div><h2>Grade</h2><div id="gchips" class="row"></div><div class="row" style="margin-top:8px;gap:6px"><button class="chip" id="hs">Skryť solo</button><button class="chip" id="hn">Skryť normal</button><button class="chip" id="hnm">Skryť názvy</button></div><button id="fr" style="margin-top:8px">Zrušiť všetky filtre</button></div></div>
  <div id="ed"></div>
  <details id="hl"><summary id="cnt">Stáda</summary><div id="list" style="padding-top:8px"></div></details>
 </aside>
@@ -192,8 +199,13 @@ $("zo").onclick=()=>{const r=vp.getBoundingClientRect();zoomAt(r.width/2,r.heigh
 $("zf").onclick=fitView;
 $("mok").onclick=()=>{pend=null;$("mv").style.display="none";save()};
 $("mno").onclick=()=>{if(pend){const h=herds.find(q=>q.id===pend.id);if(h){h.x=pend.x;h.y=pend.y}}pend=null;$("mv").style.display="none";renderPins()};
-$("hs").onchange=e=>{hideSolo=e.target.checked;renderAll()};
-$("hn").onchange=e=>{hideNorm=e.target.checked;renderAll()};
+$("hs").onclick=()=>{hideSolo=!hideSolo;renderAll()};
+$("hn").onclick=()=>{hideNorm=!hideNorm;renderAll()};
+let hideNames=false;
+function applyNames(){document.body.classList.toggle("nonames",hideNames);$("hnm").classList.toggle("on",hideNames);layout()}
+$("hnm").onclick=()=>{hideNames=!hideNames;try{localStorage.setItem("cotw-nonames",hideNames?"1":"")}catch(e){}applyNames()};
+try{hideNames=!!localStorage.getItem("cotw-nonames")}catch(e){}
+applyNames();
 $("fr").onclick=()=>{tAct.clear();act.clear();gAct.clear();hideSolo=hideNorm=false;$("hs").checked=$("hn").checked=false;renderAll()};
 let addType=null;
 function setAdd(t){addType=t||null;addMode=!!t;vp.classList.toggle("add",addMode);[["addb","stado"]].forEach(([i,k])=>$(i).classList.toggle("on",t===k));$("hint").style.display=t?"block":"none"}
@@ -261,11 +273,11 @@ function select(id,center){sel=id;const h=herds.find(x=>x.id===id);
  if(center&&h){const r=vp.getBoundingClientRect();s=Math.max(s,fit*2);tx=r.width/2-h.x*W*s;ty=r.height/2-h.y*H*s;apply()}
  renderAll()}
 function renderT(){
- const T=[["stado","Stádo","#fff"],["stan","Stan","#39ff14"],["diamant","Great One","#e6c200"],["otaznik","Otáznik","#ff8c00"]];
+ const T=[["stan","Stan","#39ff14"],["diamant","Great One","#e6c200"],["otaznik","Otáznik","#ff8c00"]];
  $("tchips").innerHTML=T.map(([k,n,c])=>`<button class="chip ${tAct.has(k)?"on":""}" data-k="${k}"><i style="background:${c}"></i>${n}</button>`).join("")+(tAct.size?`<button class="chip" data-k="">Zobraziť všetko</button>`:"");
  $("tchips").querySelectorAll("button").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(!k)tAct.clear();else tAct.has(k)?tAct.delete(k):tAct.add(k);renderAll()})}
 function renderF(){const n=tAct.size+act.size+gAct.size+(hideSolo?1:0)+(hideNorm?1:0);
- $("fsum").textContent="Filtre"+(n?" ("+n+" aktívne)":"");$("fsum").style.color=n?"var(--ac)":""}
+ $("fsum").textContent="Filtre"+(n?" ("+n+" aktívne)":"");$("fsum").style.color=n?"var(--ac)":"";$("hs").classList.toggle("on",hideSolo);$("hn").classList.toggle("on",hideNorm)}
 function renderG(){const gs=[...new Set([...herds.flatMap(h=>h.animals.map(a=>String(a.grade||"").trim())),...gAct])].filter(Boolean).sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
  $("gchips").innerHTML=gs.length?gs.map(g=>`<button class="chip ${gAct.has(g)?"on":""}" data-g="${esc(g)}">${esc(g)}</button>`).join("")+(gAct.size?`<button class="chip" data-g="">Zrušiť filter</button>`:""):`<small style="color:var(--mu)">Zatiaľ žiadny grade</small>`;
  $("gchips").querySelectorAll("button").forEach(b=>b.onclick=()=>{const g=b.dataset.g;if(!g)gAct.clear();else gAct.has(g)?gAct.delete(g):gAct.add(g);renderAll()})}
@@ -282,7 +294,7 @@ $("cl").onclick=()=>$("dlg").close();
 $("cp").onclick=()=>{$("js").select();try{navigator.clipboard.writeText($("js").value)}catch(e){document.execCommand("copy")}};
 $("ld").onclick=()=>{try{const d=JSON.parse($("js").value);if(!Array.isArray(d))throw 0;herds=d;herds.forEach(h=>{if(h.type==="tripod")h.type="stan";if(h.type==="diamant"&&h.title==="Diamant")h.title="Great One"});sel=null;save();renderAll();$("dlg").close()}catch(e){alert("Neplatný JSON")}};
 const curMap=()=>MAPS.find(m=>m.k===cur);
-function renderTabs(){$("tabs").innerHTML='<b class="brand">theHunter-maps</b>'+MAPS.map(m=>`<button class="tab ${m.k===cur?"on":""}" data-k="${m.k}">${m.n}</button>`).join("");$("tabs").querySelectorAll(".tab").forEach(b=>b.onclick=()=>setMap(b.dataset.k))}
+function renderTabs(){$("tl").innerHTML='<b class="brand">theHunter-maps</b>'+MAPS.map(m=>`<button class="tab ${m.k===cur?"on":""}" data-k="${m.k}">${m.n}</button>`).join("");$("tl").querySelectorAll(".tab").forEach(b=>b.onclick=()=>setMap(b.dataset.k))}
 function noMap(){const m=curMap();img.style.display="none";W=H=1;renderAll();$("pins").innerHTML="";const e=$("nomap");e.style.display="flex";e.innerHTML="<div><b>Chýba obrázok mapy "+m.n+"</b><br>Nahraj ho do repozitára ako <code>"+m.s+"</code> a obnov stránku.</div>"}
 function setMap(k){
  if(k===cur||!MAPS.some(m=>m.k===k))return;
