@@ -1163,9 +1163,9 @@
      {
       "sp": "Red Deer",
       "grade": "6",
-      "rating": "180",
+      "rating": "200",
       "solo": false,
-      "shot": true
+      "shot": false
      },
      {
       "sp": "Red Deer",
