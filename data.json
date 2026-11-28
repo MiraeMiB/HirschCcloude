@@ -1989,7 +1989,8 @@
       "sp": "Red Deer",
       "grade": "7",
       "rating": "210",
-      "solo": false
+      "solo": false,
+      "shot": true
      }
     ]
    },
