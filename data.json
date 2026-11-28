@@ -2476,10 +2476,10 @@
   "note": "",
   "animals": [
    {
-    "sp": "Roe Deer",
-    "grade": "",
-    "rating": "",
-    "solo": false,
+    "sp": "Red Deer",
+    "grade": "6",
+    "rating": "182",
+    "solo": true,
     "shot": false
    }
   ]
