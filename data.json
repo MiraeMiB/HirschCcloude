@@ -417,6 +417,12 @@
     "sp": "Red Deer",
     "grade": "5",
     "rating": "145"
+   },
+   {
+    "sp": "Canada Goose",
+    "grade": "",
+    "rating": "",
+    "solo": false
    }
   ]
  },
