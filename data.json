@@ -2274,10 +2274,10 @@
     "animals": [
      {
       "sp": "Red Deer",
-      "grade": "6",
-      "rating": "226",
+      "grade": "8",
+      "rating": "218",
       "solo": false,
-      "shot": true
+      "shot": false
      },
      {
       "sp": "Red Deer",
