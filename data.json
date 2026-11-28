@@ -42,7 +42,7 @@
       "grade": "5",
       "rating": "139",
       "solo": false,
-      "shot": false
+      "shot": true
      }
     ],
     "type": "diamant"
